@@ -9,7 +9,11 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgb(231, 157, 238), rgb(135, 233, 126));
+  background: linear-gradient(
+    to bottom,
+    rgb(231, 157, 238),
+    rgb(135, 233, 126)
+  );
 }
 
 header {
@@ -55,14 +59,13 @@ header {
   opacity: 0.5;
 }
 
-
-.icons .fa-check {
-  padding: 0.487rem .5rem;
+.icons .fa-square-check {
+  padding: 0.487rem 0.5rem;
   background: rgb(83, 164, 195);
 }
 
-.icons .fa-trash {
-  padding: 0.487rem .5rem;
+.icons .fa-trash-can {
+  padding: 0.487rem 0.5rem;
   background: rgb(197, 70, 81);
 }
 
@@ -72,7 +75,6 @@ header {
   padding: 0.3rem 4rem;
   background: white;
 }
-
 
 button {
   border: none;
